@@ -33,8 +33,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 gem 'polymer-rails'
+gem 'polymer-elements-rails', :git => 'https://github.com/alchapone/polymer-elements-rails'
 gem 'polymer-iron-rails', :git => 'https://github.com/alchapone/polymer-iron-rails'
 gem 'polymer-paper-rails', :git => 'https://github.com/alchapone/polymer-paper-rails'
+
+gem 'haml-rails', '~> 0.9.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -1,0 +1,17 @@
+%center
+  %h1 Polymer Rails Example
+%div
+  %template{:is => "dom-bind"}
+  %iron-ajax{:auto => "", "last-response" => "", :url => "data.json"}
+  %iron-list{:as => "item", :items => "[[data]]"}
+    %template
+      %div
+        Name:
+        %span [[item.name]]
+      
+%br/
+%paper-button flat button
+%br/
+%paper-button{:raised => ""} raised button
+%label{:for => ""} Web Component navigation built with &lt;my-navigation&gt; tag
+%my-navigation
