@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
 # Use sqlite3 as the database for Active Record
@@ -32,9 +33,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 gem 'polymer-rails'
-gem 'polymer-iron-rails', :git => "git://github.com/vsimonian/polymer-iron-rails.git"
-gem 'polymer-paper-rails', :git => "git://github.com/vsimonian/polymer-paper-rails.git"
-gem 'polymer-neon-rails', :git => "git://github.com/vsimonian/polymer-neon-rails.git"
+gem 'polymer-iron-rails', :git => 'https://github.com/alchapone/polymer-iron-rails'
+gem 'polymer-paper-rails', :git => 'https://github.com/alchapone/polymer-paper-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

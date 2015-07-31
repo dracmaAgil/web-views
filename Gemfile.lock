@@ -1,25 +1,16 @@
 GIT
-  remote: git://github.com/vsimonian/polymer-iron-rails.git
-  revision: 0b464c5d0cfb5379af1a5e14425ba827f63a0c91
+  remote: https://github.com/alchapone/polymer-iron-rails
+  revision: 57acd5e1df8a270c0b19eb12afb03a173a5f3eb7
   specs:
-    polymer-iron-rails (1.0.0)
-      polymer-rails (~> 1.0.0)
+    polymer-iron-rails (1.0.0.pre.rc.3)
+      polymer-rails (~> 1.0, >= 1.0.3)
 
 GIT
-  remote: git://github.com/vsimonian/polymer-neon-rails.git
-  revision: 858d42492ebb9f473010d2405180352ff6cec5a4
+  remote: https://github.com/alchapone/polymer-paper-rails
+  revision: 940824af00b9002ebbcd7243db25d659fdd6b8a8
   specs:
-    polymer-neon-rails (1.0.0)
-      polymer-rails (~> 1.0.0)
-
-GIT
-  remote: git://github.com/vsimonian/polymer-paper-rails.git
-  revision: 16fa0b21132009d15a2fcb70c8ebb2d5c5ec2ba4
-  specs:
-    polymer-paper-rails (1.0.0)
-      polymer-iron-rails (~> 1.0.0)
-      polymer-neon-rails (~> 1.0.0)
-      polymer-rails (~> 1.0.0)
+    polymer-paper-rails (1.0.0.pre.rc.3)
+      polymer-rails (~> 1.0, >= 1.0.3)
 
 GEM
   remote: https://rubygems.org/
@@ -181,7 +172,6 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   polymer-iron-rails!
-  polymer-neon-rails!
   polymer-paper-rails!
   polymer-rails
   rails (= 4.2.2)
